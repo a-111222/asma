@@ -500,6 +500,8 @@ a:focus {
 .about_section .detail-box h2 {
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 10%;
+
 }
 
 .about_section .detail-box p {
@@ -673,8 +675,10 @@ a:focus {
 }
 
 .info_section .info_top .info_logo img {
-  width: 65px;
+  width: 12%;
+  height: 12%;
 }
+
 
 .info_section .info_top .info_logo span {
   color: #ffffff;
