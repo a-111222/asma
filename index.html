@@ -34,17 +34,29 @@
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" 
+    style="    position: absolute;">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" />
-            <span>
+            <span  >
               Learn And Get Point
             </span>
           </a>
           </button>
-
+<!--
+          
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    padding-bottom: 6%;
+    z-index: 1;
+    margin-bottom: 10%;
+    float: left;
+-->
          
           <div>
 
@@ -59,33 +71,51 @@
       <div class="carousel_btn-container">
        
       </div>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" >
       
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-5 offset-md-1">
+                <div class="col-md-5 offset-md-1" 
+                style="padding-top: 10%;"
+              >
+           
                   <div class="detail-box">
+                    <div id="particles-js" 
+                    style="
+                  position: sticky;
+                  bottom: 0;
+                  left: 0;
+                  width: 50%;
+                  height: 100%;
+                  z-index: 1;"
+                 ></div>
                     <h1>
                       You Can <br>
                       Learn And <br>
                       Get point 
                     </h1>
-                    <p>
+                    <p
+                    style=" margin-bottom: 0.5rem;
+                           text-transform: uppercase;
+                           padding: 0!important;
+                           text-align: unset;" >
                       Add lots of points to your monthly target.
                     </p>
-                    <div class="btn-box" style="display: none;">
-                      <a href="" class="btn-1">
-                       Apply Now
-                      </a>
-                     
-                    </div>
+                   
                   </div>
                 </div>
-                <div class="offset-md-1 col-md-4 img-container">
+                <div class="offset-md-1 col-md-4 img-container" style="z-index: 2;">
                   <div class="img-box">
                     <img src="images/slider-img.png" alt="">
+                    <h1
+                    style=" 
+                     text-align: center;
+                    color: white;
+                   padding: 3%;
+                    font-weight: bold;"
+                    >Awesome Point Program will make 90% Of Agent Educated</h1>
                   </div>
                 </div>
               </div>
@@ -97,7 +127,9 @@
                 <div class="col-md-5 offset-md-1">
               
                 </div>
-                <div class="offset-md-1 col-md-4 img-container">
+              
+                <div class="offset-md-1 col-md-4 img-container" style="position: relative;
+    z-index: 999;">
                   <div class="img-box">
                     <img src="images/slider-img.png" alt="">
                     <h1
@@ -124,8 +156,8 @@
 
   <!-- experience section -->
 
-  <section class="experience_section layout_padding">
-    <div class="container">
+  <section class="experience_section layout_padding" style="background: white;">
+    <div class="container"  style="position: relative;z-index: 999;">
       <div class="row">
         <div class="col-md-5">
           <div class="img-box">
@@ -159,7 +191,10 @@
 
   <!-- category section -->
 
-  <section class="category_section layout_padding">
+  <section class="category_section layout_padding" 
+  style="    
+  position: relative;
+    z-index: 99;">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -246,8 +281,8 @@
   <!-- end category section -->
 
   <!-- about section -->
-
-  <section class="about_section layout_padding">
+ 
+  <section class="about_section layout_padding" style="background-color: white; position: relative; z-index: 999;">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-9 mx-auto">
@@ -310,14 +345,34 @@ The time factor is important, so most questions will have short answers and may 
       font-size: 53px;
      color: darkcyan;">&#xe885;</i>
 The winners of each month will have their results sent to the region managers and the results will be shared on the groups for each region.</p>
-  </div>
+<!--Start Example Face book -->  
+
+
+<a href="./about.html"
+style="   
+background: #cb1621;
+color: white;
+border: none;
+width: 100px;
+height: 45px;
+border-radius: 20px;
+width: 90%;
+font-weight: bold;
+
+"
+>Ex HERE</a>
+
+
+
+<!--End Example Face Book-->
+
+</div>
     </div>
   </section>
 
   <!-- end about section -->
    <!-- freelance section -->
-
-  <section class="freelance_section ">
+  <section class="freelance_section " style="background-color: white; position: relative; z-index: 999;">
     <div id="accordion">
       <div class="container-fluid">
         <div class="row">
@@ -409,10 +464,11 @@ The winners of each month will have their results sent to the region managers an
               </div>
             </div>
           </div>
-        </div>
+       
       </div>
     </div>
   </section>
+</div>
 
   <!-- end freelance section -->
 
@@ -420,7 +476,7 @@ The winners of each month will have their results sent to the region managers an
 
 
 
-<section class="about_section layout_padding">
+<section class="about_section layout_padding" style="background-color: white;">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-9 mx-auto">
@@ -481,7 +537,7 @@ The winners of each month will have their results sent to the region managers an
 
   <!-- info section -->
 
-  <section class="info_section ">
+  <section class="info_section " style="z-index: -1;">
     <div class="info_container layout_padding-top">
       <div class="container">
         <div class="info_top">
@@ -491,23 +547,7 @@ The winners of each month will have their results sent to the region managers an
               Learn And Get Point Program
             </span>
           </div>
-          <div class="social_box">
-            <a href="#">
-              <img src="images/fb.png" alt="">
-            </a>
-            <a href="#">
-              <img src="images/twitter.png" alt="">
-            </a>
-            <a href="#">
-              <img src="images/linkedin.png" alt="">
-            </a>
-            <a href="#">
-              <img src="images/instagram.png" alt="">
-            </a>
-            <a href="#">
-              <img src="images/youtube.png" alt="">
-            </a>
-          </div>
+      
         </div>
 
          
@@ -562,16 +602,59 @@ The winners of each month will have their results sent to the region managers an
   <!-- end info section -->
 
   <!-- footer section -->
+ 
   <footer class="container-fluid footer_section ">
-    <div class="container">
-      <p>
-        &copy; <span id="displayDate"></span> All Rights Reserved By
-        <a href="https://html.design/">Abdelrahman Ahmed</a>
+    <div id="particles-js" 
+    style="
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;"
+    >
+    <div class="container" 
+    style="    
+    z-index: 11111;
+    position: absolute;
+    color: white !important;
+    bottom: 0;
+    left: 0;"
+    >
+      <p style="color: white;">
+        &copy; <span id="displayDate" style="color: white;"></span> All Rights Reserved By
+        <a href="https://html.design/" style="color: white;">Abdelrahman Ahmed</a>
       </p>
+    </div>
     </div>
   </footer>
   <!-- end  footer section -->
+<!--start outsourse links -->
 
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+<!--End Anamation-->
+
+
+      </section>
+    
+<!--animation-->
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+
+
+<!--End-->
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
